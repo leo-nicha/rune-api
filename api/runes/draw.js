@@ -1,8 +1,4 @@
-import path from "path";
-import fs from "fs/promises";
-
 export default async function handler(req, res) {
-  // รองรับ OPTIONS สำหรับ CORS
   if (req.method === "OPTIONS") {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
@@ -12,35 +8,36 @@ export default async function handler(req, res) {
 
   try {
     const { count } = req.query;
-    let runeCount = parseInt(count, 10) || 3; // ค่า default = 3
-    if (runeCount < 1) runeCount = 1;
-    if (runeCount > 24) runeCount = 24; // max 24
+    const runeCount = Math.min(Math.max(parseInt(count, 10) || 3, 1), 24);
 
-    const filePath = path.join(process.cwd(), "data", "runes_24.json");
-    const jsonData = await fs.readFile(filePath, "utf-8");
-    const runesData = JSON.parse(jsonData).runes;
+    // fetch JSON จาก public folder
+    const protocol = req.headers["x-forwarded-proto"] || "https";
+    const host = req.headers.host;
+    const url = `${protocol}://${host}/runes_24.json`;
 
-    // สุ่ม rune แบบไม่ซ้ำ
-    const shuffled = [...runesData].sort(() => 0.5 - Math.random());
-    const selectedRunes = shuffled.slice(0, runeCount);
+    const response = await fetch(url);
+    if (!response.ok) throw new Error("Cannot fetch runes file");
 
-    // กำหนดตำแหน่งสำหรับการตีความเชิงลึก (ถ้า count=3)
+    const data = await response.json();
+    const runes = data.runes;
+
+    // สุ่ม rune
+    const shuffled = [...runes].sort(() => 0.5 - Math.random());
+    const selected = shuffled.slice(0, runeCount);
+
     const positions = ["อดีต", "ปัจจุบัน", "อนาคต"];
-    const result = selectedRunes.map((rune, index) => {
-      return {
-        position: positions[index] || `รูนที่ ${index + 1}`,
-        symbol: rune.symbol,
-        name: rune.name,
-        meaning: rune.meaning,
-        interpretation: rune.interpretation
-      };
-    });
+    const result = selected.map((rune, i) => ({
+      position: positions[i] || `รูนที่ ${i+1}`,
+      symbol: rune.symbol,
+      name: rune.name,
+      meaning: rune.meaning,
+      interpretation: rune.interpretation
+    }));
 
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.status(200).json(result);
-
   } catch (error) {
-    console.error("Error reading runes file:", error);
+    console.error("Error in /api/runes/draw:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 }
