@@ -1,0 +1,196 @@
+{
+  "runes": [
+    {
+      "symbol": "ᚠ",
+      "name": "Fehu",
+      "transliteration": "F",
+      "meaning": "ทรัพย์สิน, ความมั่งคั่ง, การเริ่มต้นใหม่ (Wealth, New beginnings)",
+      "keywords": ["wealth", "abundance", "success", "energy"],
+      "interpretation": "คุณกำลังจะมีโอกาสสร้างความมั่งคั่งหรือเริ่มต้นสิ่งใหม่ที่สำคัญ"
+    },
+    {
+      "symbol": "ᚢ",
+      "name": "Uruz",
+      "transliteration": "U",
+      "meaning": "พลังชีวิต, สุขภาพแข็งแรง, พลังดิบ (Vitality, Strength)",
+      "keywords": ["strength", "health", "endurance", "wild power"],
+      "interpretation": "พลังชีวิตและความแข็งแรงของคุณจะช่วยให้ผ่านความท้าทายได้"
+    },
+    {
+      "symbol": "ᚦ",
+      "name": "Thurisaz",
+      "transliteration": "TH",
+      "meaning": "การป้องกัน, ความท้าทาย, พลังแห่งการเปลี่ยนแปลง (Protection, Challenge)",
+      "keywords": ["defense", "conflict", "barrier", "reaction"],
+      "interpretation": "ระวังอุปสรรคหรือการเผชิญหน้าที่อาจเกิดขึ้น แต่จะเป็นบทเรียนที่สำคัญ"
+    },
+    {
+      "symbol": "ᚨ",
+      "name": "Ansuz",
+      "transliteration": "A",
+      "meaning": "การสื่อสาร, ปัญญา, เทพโอดิน (Communication, Wisdom)",
+      "keywords": ["speech", "message", "divine insight", "guidance"],
+      "interpretation": "การสื่อสารและปัญญาของคุณจะนำไปสู่ความเข้าใจและคำตอบที่สำคัญ"
+    },
+    {
+      "symbol": "ᚱ",
+      "name": "Raidho",
+      "transliteration": "R",
+      "meaning": "การเดินทาง, การเคลื่อนไหว, เส้นทางชีวิต (Journey, Rhythm)",
+      "keywords": ["travel", "path", "movement", "progress"],
+      "interpretation": "คุณอยู่ในช่วงของการเดินทางหรือการเปลี่ยนแปลงชีวิตที่สำคัญ"
+    },
+    {
+      "symbol": "ᚲ",
+      "name": "Kenaz",
+      "transliteration": "K",
+      "meaning": "แสงแห่งความรู้, การเปิดเผย, แรงบันดาลใจ (Knowledge, Revelation)",
+      "keywords": ["learning", "illumination", "insight", "creativity"],
+      "interpretation": "ความรู้หรือแรงบันดาลใจใหม่ ๆ จะนำทางคุณไปสู่ความสำเร็จ"
+    },
+    {
+      "symbol": "ᚷ",
+      "name": "Gebo",
+      "transliteration": "G",
+      "meaning": "ของขวัญ, ความสัมพันธ์, การให้และรับ (Gift, Partnership)",
+      "keywords": ["exchange", "generosity", "balance", "bond"],
+      "interpretation": "ความสัมพันธ์และความร่วมมือจะสร้างผลประโยชน์ที่ดีทั้งสองฝ่าย"
+    },
+    {
+      "symbol": "ᚹ",
+      "name": "Wunjo",
+      "transliteration": "W",
+      "meaning": "ความสุข, ความสมหวัง, ความสามัคคี (Joy, Harmony)",
+      "keywords": ["joy", "success", "harmony", "celebration"],
+      "interpretation": "ช่วงเวลานี้เต็มไปด้วยความสุข ความสำเร็จ และความสมดุลในชีวิต"
+    },
+    {
+      "symbol": "ᚺ",
+      "name": "Hagalaz",
+      "transliteration": "H",
+      "meaning": "การเปลี่ยนแปลง, ความโกลาหล, พายุชีวิต (Disruption, Transformation)",
+      "keywords": ["chaos", "storm", "destruction", "change"],
+      "interpretation": "ความท้าทายหรือความเปลี่ยนแปลงจะเกิดขึ้น เตรียมใจและปรับตัวให้พร้อม"
+    },
+    {
+      "symbol": "ᚾ",
+      "name": "Nauthiz",
+      "transliteration": "N",
+      "meaning": "ความต้องการ, การอดทน, การเรียนรู้จากความยากลำบาก (Need, Endurance)",
+      "keywords": ["constraint", "necessity", "patience", "resilience"],
+      "interpretation": "ความอดทนและการเผชิญความต้องการจะทำให้คุณเติบโตขึ้น"
+    },
+    {
+      "symbol": "ᛁ",
+      "name": "Isa",
+      "transliteration": "I",
+      "meaning": "น้ำแข็ง, การหยุดชั่วคราว, ความนิ่ง (Stillness, Pause)",
+      "keywords": ["pause", "stability", "frozen", "reflection"],
+      "interpretation": "การหยุดชั่วคราวจะช่วยให้คุณคิดและวางแผนต่อไปอย่างรอบคอบ"
+    },
+    {
+      "symbol": "ᛃ",
+      "name": "Jera",
+      "transliteration": "J/Y",
+      "meaning": "การเก็บเกี่ยว, ผลตอบแทนแห่งความพยายาม (Harvest, Reward)",
+      "keywords": ["cycle", "growth", "harvest", "time"],
+      "interpretation": "ความพยายามที่ผ่านมาใกล้จะได้รับผลลัพธ์ที่คุ้มค่า"
+    },
+    {
+      "symbol": "ᛇ",
+      "name": "Eihwaz",
+      "transliteration": "EI",
+      "meaning": "ต้นยู, การปกป้อง, การแปรเปลี่ยนภายใน (Endurance, Transformation)",
+      "keywords": ["defense", "transition", "protection", "life-death"],
+      "interpretation": "คุณจะได้รับความคุ้มครองและมีพลังในการปรับตัวต่อการเปลี่ยนแปลง"
+    },
+    {
+      "symbol": "ᛈ",
+      "name": "Perthro",
+      "transliteration": "P",
+      "meaning": "โชคชะตา, ความลึกลับ, ความลับที่ยังไม่เปิดเผย (Fate, Mystery)",
+      "keywords": ["chance", "destiny", "mystery", "hidden knowledge"],
+      "interpretation": "สิ่งที่ยังไม่ชัดเจนหรือความลับจะเผยผลลัพธ์ให้คุณในเวลาเหมาะสม"
+    },
+    {
+      "symbol": "ᛉ",
+      "name": "Algiz",
+      "transliteration": "Z",
+      "meaning": "การป้องกัน, สัญชาตญาณ, ความปลอดภัย (Protection, Intuition)",
+      "keywords": ["shield", "safety", "divine help", "awareness"],
+      "interpretation": "สัญชาตญาณและการป้องกันตัวเองจะนำคุณไปสู่ความปลอดภัย"
+    },
+    {
+      "symbol": "ᛋ",
+      "name": "Sowilo",
+      "transliteration": "S",
+      "meaning": "ดวงอาทิตย์, ความสำเร็จ, พลังชีวิต (Sun, Victory)",
+      "keywords": ["success", "energy", "clarity", "achievement"],
+      "interpretation": "ความสำเร็จและพลังบวกกำลังอยู่ใกล้ คุณพร้อมสำหรับชัยชนะ"
+    },
+    {
+      "symbol": "ᛏ",
+      "name": "Tiwaz",
+      "transliteration": "T",
+      "meaning": "ความยุติธรรม, ความกล้าหาญ, การเสียสละ (Justice, Honor)",
+      "keywords": ["courage", "duty", "leadership", "truth"],
+      "interpretation": "ความยุติธรรมและความกล้าหาญจะช่วยคุณเอาชนะอุปสรรค"
+    },
+    {
+      "symbol": "ᛒ",
+      "name": "Berkano",
+      "transliteration": "B",
+      "meaning": "การเกิดใหม่, การเติบโต, ความเป็นแม่ (Birth, Growth)",
+      "keywords": ["fertility", "renewal", "family", "care"],
+      "interpretation": "ช่วงเวลานี้เป็นเวลาของการเติบโต การเริ่มต้นใหม่ หรือการสร้างครอบครัว"
+    },
+    {
+      "symbol": "ᛖ",
+      "name": "Ehwaz",
+      "transliteration": "E",
+      "meaning": "ม้า, การร่วมมือ, ความก้าวหน้า (Movement, Cooperation)",
+      "keywords": ["trust", "teamwork", "progress", "mobility"],
+      "interpretation": "การร่วมมือและความไว้วางใจจะช่วยให้คุณก้าวหน้าไปข้างหน้าได้"
+    },
+    {
+      "symbol": "ᛗ",
+      "name": "Mannaz",
+      "transliteration": "M",
+      "meaning": "มนุษย์, สติปัญญา, การตระหนักรู้ตนเอง (Humanity, Awareness)",
+      "keywords": ["self", "community", "understanding", "balance"],
+      "interpretation": "การตระหนักรู้ตัวเองและผู้อื่นจะนำไปสู่ความสมดุลและความเข้าใจ"
+    },
+    {
+      "symbol": "ᛚ",
+      "name": "Laguz",
+      "transliteration": "L",
+      "meaning": "น้ำ, สัญชาตญาณ, การไหลไปตามธรรมชาติ (Flow, Intuition)",
+      "keywords": ["emotion", "water", "intuition", "adaptability"],
+      "interpretation": "ฟังสัญชาตญาณและปล่อยให้สิ่งต่าง ๆ ไหลไปตามธรรมชาติจะเกิดผลดี"
+    },
+    {
+      "symbol": "ᛜ",
+      "name": "Ingwaz",
+      "transliteration": "NG",
+      "meaning": "ความอุดมสมบูรณ์, การพักผ่อน, ความสมดุลภายใน (Fertility, Peace)",
+      "keywords": ["harmony", "rest", "potential", "growth"],
+      "interpretation": "ช่วงเวลานี้เหมาะกับการพักผ่อนและสะสมพลังสำหรับการเติบโตในอนาคต"
+    },
+    {
+      "symbol": "ᛞ",
+      "name": "Dagaz",
+      "transliteration": "D",
+      "meaning": "รุ่งอรุณ, การเปลี่ยนแปลงเชิงบวก, การตื่นรู้ (Dawn, Awakening)",
+      "keywords": ["transformation", "clarity", "hope", "breakthrough"],
+      "interpretation": "การเปลี่ยนแปลงเชิงบวกกำลังมาถึง ชีวิตของคุณจะชัดเจนและมีพลังมากขึ้น"
+    },
+    {
+      "symbol": "ᛟ",
+      "name": "Othala",
+      "transliteration": "O",
+      "meaning": "มรดก, บ้านเกิด, การเชื่อมโยงกับบรรพบุรุษ (Heritage, Legacy)",
+      "keywords": ["inheritance", "home", "family", "tradition"],
+      "interpretation": "คุณจะได้รับความมั่นคงหรือการสนับสนุนจากครอบครัวและบรรพบุรุษ"
+    }
+  ]
+}
